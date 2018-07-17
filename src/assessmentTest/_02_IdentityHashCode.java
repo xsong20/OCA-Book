@@ -1,6 +1,6 @@
 package assessmentTest;
 
-public class _02 {
+public class _02_IdentityHashCode {
 	public static void main(String[] args) {
 		
 		/*	The comparison operator == determines whether both the reference variables 

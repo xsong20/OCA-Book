@@ -1,9 +1,16 @@
 package chpt_3_Core_API;
 
+import java.security.Permissions;
+import java.time.Period;
+
 public class DateTime_APIs {
 	public static void main(String[] args) {
 		// LocalDateTime class has private constructor
+		// To acceess the data, use LocalDateTime.of()
 		
+		// Check out period.
+		
+		Period p = Period.of(50, 15, 3);
 		
 		
 		/*

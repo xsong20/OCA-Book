@@ -1,0 +1,22 @@
+# Run following cmd
+
+java [-cp .] Q8 1 2
+
+
+# when in the java file, a package is defined. the corresponding file hierachy must also be created
+# e.g
+package a
+public class b(){
+
+}
+
+
+run:
+javac b.java
+mkdir a
+# move all java files to folder a
+mv b.* a/
+
+java [a.]b [args]
+
+# package qualifier should better be provided.
